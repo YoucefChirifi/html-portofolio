@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #16325B;
+}
+
+.container{
+   
+    height: 772px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 45px;
+    background-color:#FFDC7F ;
+    color: rgb(143, 117, 117);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border: 7px solid #78B7D0 ;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color:hsl(0, 27%, 96%) ;
+    border-radius: 50%;
+    border: 7px solid white;
+   
+}
+
+.email{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    border: 10px solid whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    color: Black;
+    background-color: #FFDC7F;
+    outline: none;
+    margin: 5px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.youcef{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.submit{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 8px;
+    margin: 3px;
+    border-radius:30px ;
+    background-color: rgb(219, 219, 171);
+    border: 5px solid rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight:400;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.textt{
+    width: 450px;
+    height: 300px;
+    font-family: "Playwrite CU", system-ui;
+    color: white;
+    font-size: 19px;
+    position: relative;
+    bottom: 90px;
+}
